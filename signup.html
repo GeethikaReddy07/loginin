@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>App Login & Sign-Up</title>
+<style>
+  body { font-family: 'Arial', sans-serif; background: #f7f7f7; }
+  .login-container { max-width: 400px; margin: 50px auto; background: #fff;color: #030a12; padding: 20px; border-radius: 10px; box-shadow: 0 5px 10px rgba(0,0,0,0.1); }
+  .welcome { text-align: left; font-size: 24px; color: #601aa2; }
+  .social-login { display: flex; justify-content: space-around; margin: 20px 0; }
+  .social-button { border: none; border-radius: 5px; padding: 10px; cursor: pointer; }
+  .facebook {
+    background-color: #3b5998;color: white;
+}
+
+.facebook:hover {
+    background-color: #2d4373;
+}
+
+.twitter {
+    background-color: #1da1f2;color: white;
+}
+
+.twitter:hover {
+    background-color: #0d8ddb;
+}
+
+  .sign {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.sign input[type=email],
+.sign input[type=password] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+  .email-login { text-align: center; margin: 20px 0; }
+  .email-login input { width: 90%; padding: 10px; margin-bottom: 10px; border: 1px solid #ddd; border-radius: 5px; }
+  .sign-up { text-align: center; margin-top: 20px; }
+  .sign-up a { color:#604cae; text-decoration: none; }
+
+
+.description{
+text-align: center;
+}
+.signup {
+  width: 90%;
+  padding: 10px;
+  background-color:#604cae;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.signup a {
+  color: white;
+  text-decoration: none;
+}
+
+.signup:hover {
+  background-color: #604cae;
+}
+
+.social-button  a{
+    
+    color: white;
+    text-decoration: none;
+}
+.net{color: #3b5998;}
+  </style>
+</head>
+<body>
+
+<div class="login-container">
+  <div class="welcome"><h2>Sign Up</h2></div>
+  <h5>Please Registration with email and sign-up to continue using our app. </h5>
+  <div class="description">
+    <h5 class="net">Enter via Social Networks </h5>
+  </div>
+  
+  <div class="social-login">
+    <button class="social-button facebook"><a href="https://www.bing.com/ck/a?!&&p=03e307724d551776JmltdHM9MTcxOTYxOTIwMCZpZ3VpZD0xMDI5YzM3Ni1hNzkwLTY5MDMtMWUwOC1kMGIwYTZjMjY4NzImaW5zaWQ9NTIxMg&ptn=3&ver=2&hsh=3&fclid=1029c376-a790-6903-1e08-d0b0a6c26872&psq=facebook+login&u=a1aHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL2xvZ2luLnBocC8&ntb=1">Facebook</a></button>
+    <button class="social-button twitter"><a href="https://www.bing.com/ck/a?!&&p=6caa7d6cad3e7b29JmltdHM9MTcxOTYxOTIwMCZpZ3VpZD0xMDI5YzM3Ni1hNzkwLTY5MDMtMWUwOC1kMGIwYTZjMjY4NzImaW5zaWQ9NTQzNw&ptn=3&ver=2&hsh=3&fclid=1029c376-a790-6903-1e08-d0b0a6c26872&psq=twitter&u=a1aHR0cHM6Ly90d2l0dGVyLmNvbS9sb2dpbg&ntb=1">Twitter</a></button>
+  </div>
+  
+<div>
+ <center><h5 class="e-mail"> or Login with Email</h5>
+  </div></center>
+  <div class="sign">
+  <input type="email" id="emailSignup" placeholder="Enter your email">
+  <input type="password" id="passwordSignup" placeholder="Create a password">
+  <h5><input type="checkbox" id="checkbox">I agree with the privacy policy</h5>
+
+ <center> <button class="social-button signup"><a href="signcon.html">Sign up</a></button>
+</center> 
+<div class="sign-up"> You already have an account? <a href="login.html">Login</a>
+  </div></div></div>
+</div>
+
+</body>
+</html>
